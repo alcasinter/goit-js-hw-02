@@ -1,5 +1,5 @@
 function getShippingCost(country) {
-  var shippingCost;
+  let shippingCost;
   switch (country) {
     case "China":
       shippingCost = 100;
